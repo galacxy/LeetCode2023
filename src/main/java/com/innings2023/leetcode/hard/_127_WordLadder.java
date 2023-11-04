@@ -14,7 +14,7 @@ public class _127_WordLadder {
         for(int i=0;i<wordList.size();i++){
             int count = -1;
             if(isTransformable(beginWord, wordList.get(i))){
-                count = 1 + getTransformations(beginWord, new boolean[wordList.size()], i, wordList, endWord);
+                count = 1 + getTransformations(wordList.get(i), new boolean[wordList.size()], i, wordList, endWord);
             }
             minCount = Math.min(minCount, count);
         }
@@ -25,7 +25,7 @@ public class _127_WordLadder {
         if(visited[k]){
             return 0;
         }
-        //visited[k] = true;
+        visited[k] = true;
         int count = -1;
         for(int i=0;i<wordList.size();i++){
             if(i == k){
@@ -60,7 +60,7 @@ public class _127_WordLadder {
 
     public static void main(String[] args) {
         String  beginWord = "hit", endWord = "cog";
-        List<String> wordList = Arrays.asList("hot","dot","dog","lot","log","cog");
+        List<String> wordList = Arrays.asList("hot","dot","dog","lot","log");
         System.out.println(ladderLength(beginWord, endWord, wordList));
     }
 }

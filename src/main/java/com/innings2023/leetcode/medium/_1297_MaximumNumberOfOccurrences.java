@@ -19,7 +19,7 @@ public class _1297_MaximumNumberOfOccurrences {
         int end = 0;
         int[] freqMap = new int[26];
         Map<String, Integer> map = new HashMap<>();
-
+        Arrays.sort(null, start, end, null);
 
         while(end - start + 1 <= minSize ){
             freqMap[s.charAt(end++) - 'a']++;
