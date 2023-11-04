@@ -1,6 +1,6 @@
-package com.leetcode.innings2023.medium;
+package com.innings2023.leetcode.medium;
 
-import com.leetcode.innings2023.model.Node;
+import com.innings2023.leetcode.model.Node;
 
 import java.util.*;
 

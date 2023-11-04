@@ -1,4 +1,4 @@
-package com.leetcode.innings2023.medium;
+package com.innings2023.leetcode.medium;
 
 import java.util.Arrays;
 import java.util.Collections;

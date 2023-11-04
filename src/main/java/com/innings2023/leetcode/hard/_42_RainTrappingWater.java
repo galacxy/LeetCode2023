@@ -1,4 +1,4 @@
-package com.leetcode.innings2023.hard;
+package com.innings2023.leetcode.hard;
 
 public class _42_RainTrappingWater {
     public static int trap(int[] height) {

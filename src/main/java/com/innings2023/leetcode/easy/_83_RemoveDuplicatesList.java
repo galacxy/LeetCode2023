@@ -1,6 +1,6 @@
-package com.leetcode.innings2023.easy;
+package com.innings2023.leetcode.easy;
 
-import com.leetcode.innings2023.model.ListNode;
+import com.innings2023.leetcode.model.ListNode;
 
 public class _83_RemoveDuplicatesList {
     public ListNode deleteDuplicates(ListNode head) {

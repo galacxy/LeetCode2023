@@ -1,6 +1,6 @@
-package com.leetcode.innings2023.easy;
+package com.innings2023.leetcode.easy;
 
-import com.leetcode.innings2023.model.TreeNode;
+import com.innings2023.leetcode.model.TreeNode;
 
 public class _938_RangeSumBST {
     private int sum = 0;

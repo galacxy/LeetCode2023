@@ -1,4 +1,4 @@
-package com.leetcode.innings2023.hard;
+package com.innings2023.leetcode.hard;
 
 import java.util.ArrayList;
 import java.util.Arrays;

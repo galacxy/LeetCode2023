@@ -1,6 +1,6 @@
-package com.leetcode.innings2023.util;
+package com.innings2023.leetcode.util;
 
-import com.leetcode.innings2023.model.ListNode;
+import com.innings2023.leetcode.model.ListNode;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

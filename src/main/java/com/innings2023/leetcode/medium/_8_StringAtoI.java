@@ -1,4 +1,4 @@
-package com.leetcode.innings2023.medium;
+package com.innings2023.leetcode.medium;
 
 public class _8_StringAtoI {
     public static int myAtoi(String s) {

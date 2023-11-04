@@ -1,7 +1,7 @@
-package com.leetcode.innings2023.medium;
+package com.innings2023.leetcode.medium;
 
-import com.leetcode.innings2023.model.ListNode;
-import com.leetcode.innings2023.util.Utility;
+import com.innings2023.leetcode.model.ListNode;
+import com.innings2023.leetcode.util.Utility;
 
 public class _2_AddTwoNumvers {
 

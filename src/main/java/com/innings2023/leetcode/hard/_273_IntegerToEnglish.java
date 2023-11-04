@@ -1,4 +1,4 @@
-package com.leetcode.innings2023.hard;
+package com.innings2023.leetcode.hard;
 
 public class _273_IntegerToEnglish {
     private static final String[] COMMA_POWERS = {"", "Thousand", "Million", "Billion", "Trillion"};

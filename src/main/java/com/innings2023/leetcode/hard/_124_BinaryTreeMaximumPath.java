@@ -1,6 +1,6 @@
-package com.leetcode.innings2023.hard;
+package com.innings2023.leetcode.hard;
 
-import com.leetcode.innings2023.model.TreeNode;
+import com.innings2023.leetcode.model.TreeNode;
 
 public class _124_BinaryTreeMaximumPath {
     private int maxSum = Integer.MIN_VALUE;

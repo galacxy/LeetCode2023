@@ -1,11 +1,11 @@
-package com.leetcode.innings2023.medium;
+package com.innings2023.leetcode.medium;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
-import com.leetcode.innings2023.model.TreeNode;
+import com.innings2023.leetcode.model.TreeNode;
 
 public class _863_AllNodesDistanceK {
     int targetLevel = -1;

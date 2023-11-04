@@ -1,4 +1,4 @@
-package com.leetcode.innings2023.model;
+package com.innings2023.leetcode.model;
 
 public class ListNode {
         public int val;

@@ -1,6 +1,5 @@
-package com.leetcode.innings2023.easy;
+package com.innings2023.leetcode.easy;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -11,17 +10,17 @@ public class _1021_RemoveOutermostParenthesesTest {
 
     @Test
     public void removeOuterParentheses1() {
-        Assert.assertEquals("()()()", removeOutermostParentheses.removeOuterParentheses("(()())(())"));
+        assertEquals("()()()", removeOutermostParentheses.removeOuterParentheses("(()())(())"));
     }
 
     @Test
     public void removeOuterParentheses2() {
-        Assert.assertEquals("()()()()(())", removeOutermostParentheses.removeOuterParentheses("(()())(())(()(()))"));
+        assertEquals("()()()()(())", removeOutermostParentheses.removeOuterParentheses("(()())(())(()(()))"));
     }
 
     @Test
     public void removeOuterParentheses3() {
-        Assert.assertEquals("(()())(()())", removeOutermostParentheses.removeOuterParentheses("((()())(()()))"));
+        assertEquals("(()())(()())", removeOutermostParentheses.removeOuterParentheses("((()())(()()))"));
     }
 
 }

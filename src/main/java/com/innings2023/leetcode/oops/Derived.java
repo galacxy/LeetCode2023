@@ -1,4 +1,4 @@
-package com.leetcode.innings2023.oops;
+package com.innings2023.leetcode.oops;
 
 import java.util.Map;
 

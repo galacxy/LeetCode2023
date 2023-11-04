@@ -1,9 +1,9 @@
-package com.leetcode.innings2023.medium;
+package com.innings2023.leetcode.medium;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
-import com.leetcode.innings2023.model.TreeNode;
+import com.innings2023.leetcode.model.TreeNode;
 
 public class _662_MaxWidthBinaryTree {
     private static final int DUMMY = Integer.MIN_VALUE;

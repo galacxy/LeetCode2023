@@ -1,4 +1,4 @@
-package com.leetcode.innings2023;
+package com.innings2023.leetcode;
 
 import java.util.*;
 
